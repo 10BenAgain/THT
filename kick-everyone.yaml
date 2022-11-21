@@ -1,0 +1,20 @@
+name: kick-everyone
+rank: 2
+priority: 1
+event: [on-message]
+if:
+  - channel-matches-any: [916080356699037777,1010956828089270423,1010956600955117648,1010956828089270423,765002574196768788,1010956233206931507] # all channels in charmz
+do:
+  - delete-user-message:
+  - send-message:
+      id:  $user_id
+      title: Join us at the High Table!
+      description: "https://discord.gg/V9yYzugtmr" # description of the embed
+      color: #f54275
+      add_timestamp: true # Add the current date / time to the embed
+  - send-message:
+      id: 775124710308577290
+      title: Haha Someone Typed
+      description: "User: $user just got kicked lol"
+      add_timestamp: true
+  - ban-user-and-delete: 1
