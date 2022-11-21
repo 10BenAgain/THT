@@ -1,0 +1,13 @@
+name: delete-DM
+rank: 2
+priority: 1
+event: [on-message-delete]
+if:
+  - channel-matches-any: [906739960084856832, 808182861571686430] #genera;-chat , <#808182861571686430> IDs
+do:
+  - send-message:
+      id: 506990507591860254 #Abel's ID
+      title: Message Deleted 
+      description: "**User**: $user_name ($user_id) \n\n**Message content**: $message\n \n**Channel**: $channel\n" # description of the embed
+      color: #f54275
+      add_timestamp: true # Add the current date / time to the embed

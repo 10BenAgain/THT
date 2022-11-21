@@ -1,0 +1,11 @@
+name: delete-invite
+rank: 2
+priority: 1
+event: on-message
+if:
+  - channel-matches-any: [906739960084856832, 808182861571686430, 812076627688161358, 940286057423994890, 914660588045602827, 1008084984139091998, 1007874785050644510, 1027363852679127080, 1027264195521155173, 1027297580339699712, 1027264616989986846] #general;-chat , <#808182861571686430> IDs
+  - message-contains-invite: true 
+do:
+  - issue-command: [396492370998460420, "warn $user_id Someone didn't read the rules... Rule 2, Warden Action"]
+  - issue-command: [396492370998460420, "kick $user_id Someone didn't read the rules... Rule 2, Warden Action"]
+  - delete-user-message:
