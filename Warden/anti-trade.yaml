@@ -2,13 +2,13 @@ name: anti-trade
 rank: 1
 event: on-message
 if:
-   - channel-matches-any: [1027264195521155173,1029215184302112820,1027264616989986846,1043974376787279953,1043973070806851695,808182861571686430,1027363852679127080] # Tradecord channels + temp channels + bot help
+   - channel-matches-any: [906739960084856832, 1043974376787279953, 1043973070806851695, 808182861571686430, 1027264195521155173, 1027363852679127080] # Tradecord channels + temp channels + bot help
    - if-any:
-      - message-matches-regex: (?i)(\.trade\b)
-      - message-matches-regex: (?i)(\.t\b)
+      - message-matches-regex: (?i)(\Wtrade\b)
+      - message-matches-regex: (?i)(\Wt\b)
 
 do:
    - send-message:
       id:  900502871156613190 # Staff-Chat Channel
       title: Anti-Trade
-      description: "**User**: $user_name ($user_id) just used a trade command in a incorrect channel!\n \n**Channel**: $channel\n"
+      description: "**User**: $user_name ($user_id) just used a trade command in an incorrect channel!\n \n**Channel**: $channel\n"
