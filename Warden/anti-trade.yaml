@@ -4,8 +4,8 @@ event: on-message
 if:
    - channel-matches-any: [906739960084856832, 1043974376787279953, 1043973070806851695, 808182861571686430, 1027264195521155173, 1027363852679127080] # Tradecord channels + temp channels + bot help
    - if-any:
-      - message-matches-regex: (?i)([.,?!@#$%^&*+-]trade\b)
-      - message-matches-regex: (?i)([.,?!@#$%^&*+-]t\b)
+      - message-matches-regex: (?i)(\B[.,?!@#$%^&*+-]trade\b)
+      - message-matches-regex: (?i)(\B[.,?!@#$%^&*+-]t\b)
 
 do:
    - send-message:
