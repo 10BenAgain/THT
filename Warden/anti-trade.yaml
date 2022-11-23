@@ -11,4 +11,4 @@ do:
    - send-message:
       id:  900502871156613190 # Staff-Chat Channel
       title: Anti-Trade
-      description: "**User**: $user_name ($user_id) just used a trade command in an incorrect channel!\n \n**Channel**: $channel\n\\n**Message content**: $message""
+      description: "**User**: $user_name ($user_id) just used a trade command in an incorrect channel!\n \n**Channel**: $channel\n \n**Message content**: $message ($message_link)"
