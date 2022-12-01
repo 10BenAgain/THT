@@ -193,7 +193,7 @@ class KickBanMixin(MixinMeta):
                         author.name, author.id, ban_type, username, user.id, str(days)
                     )
                 )
-                success_message = _("Done. That felt good.")
+                success_message = _(f"**User**: {user.id} has been excommunicado! | **Reason:** `{reason}`")
             except discord.Forbidden:
                 return False, _("I'm not allowed to do that.")
             except discord.NotFound:
@@ -354,7 +354,7 @@ class KickBanMixin(MixinMeta):
                 until=None,
                 channel=None,
             )
-            await ctx.send(_("Done. That felt good."))
+            await ctx.send(_(f"**User**: {member.id} kicked! **Reason**: `{reason} | **Your membership to the Continental has been** *-by thine own hand* **revoked.**"))
 
     @commands.command()
     @commands.guild_only()
