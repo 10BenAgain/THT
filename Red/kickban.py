@@ -322,13 +322,19 @@ class KickBanMixin(MixinMeta):
         if toggle:
             with contextlib.suppress(discord.HTTPException):
                 em = discord.Embed(
-                    title=bold(_("You have been kicked from {guild}.").format(guild=guild)),
+                    title=bold(_("👢 Kicked member from {}").format(guild=guild)),
                     color=await self.bot.get_embed_color(member),
+                    timestamp=ctx.message.created_at,
                 )
                 em.add_field(
                     name=_("**Reason**"),
                     value=reason if reason is not None else _("No reason was given."),
                     inline=False,
+                )
+                em.add_field(
+                    name=_("**Return"),
+                    value=_(f"You have been kicked from {guild} for the given reason: `{reason}`. You may return at any time. https://discord.gg/V9yYzugtmr"),
+                    inline=False, 
                 )
                 await member.send(embed=em)
         try:
