@@ -348,8 +348,8 @@ class KickBanMixin(MixinMeta):
                     inline=False,
                 )
                 em.add_field(
-                    name=_("**Return"),
-                    value=_(f"You have been kicked from {guild} for the given reason: `{reason}`. You may return at any time. https://discord.gg/V9yYzugtmr"),
+                    name=_("**Return**"),
+                    value=_(f"You have been kicked from {guild} for the given reason: `{reason}`.\n You may return at any time. https://discord.gg/V9yYzugtmr"),
                     inline=False, 
                 )
                 await member.send(embed=em)
