@@ -209,7 +209,7 @@ class KickBanMixin(MixinMeta):
                         author.name, author.id, ban_type, username, user.id, str(days)
                     )
                 )
-                success_message = _(f"**User**: {user.id} has been excommunicado! | **Reason:** `{reason}`")
+                success_message = _(f"**User**: `{user.id}` has been excommunicado! | **Reason:** `{reason}`")
             except discord.Forbidden:
                 return False, _("I'm not allowed to do that.")
             except discord.NotFound:
@@ -338,7 +338,7 @@ class KickBanMixin(MixinMeta):
         if toggle:
             with contextlib.suppress(discord.HTTPException):
                 em = discord.Embed(
-                    title=bold(_("Kicked member from {guild}").format(guild=guild)),
+                    title=bold(_("👢 Kicked member from {guild}").format(guild=guild)),
                     color=await self.bot.get_embed_color(member),
                     timestamp=ctx.message.created_at,
                 )
@@ -352,6 +352,7 @@ class KickBanMixin(MixinMeta):
                     value=_(f"You have been kicked from {guild} for the given reason: `{reason}`. You may return at any time. https://discord.gg/V9yYzugtmr"),
                     inline=False, 
                 )
+                await member.send(embed=em)
         try:
             await guild.kick(member, reason=audit_reason)
             log.info("{}({}) kicked {}({})".format(author.name, author.id, member.name, member.id))
@@ -375,7 +376,7 @@ class KickBanMixin(MixinMeta):
                 until=None,
                 channel=None,
             )
-            await ctx.send(_(f"**User**: {member.id} kicked! **Reason**: `{reason}` | **Your membership to the Continental has been** *-by thine own hand—* **revoked.**"))
+            await ctx.send(_(f"**User**: `{member.id}` kicked! **Reason**: `{reason}` | **Your membership to the Continental has been** *—by thine own hand—* **revoked.**"))
 
     @commands.command()
     @commands.guild_only()
