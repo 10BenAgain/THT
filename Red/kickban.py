@@ -313,7 +313,7 @@ class KickBanMixin(MixinMeta):
         """
         author = ctx.author
         guild = ctx.guild
-
+        
         if author == member:
             await ctx.send(
                 _("I cannot let you do that. Self-harm is bad {emoji}").format(
@@ -333,6 +333,7 @@ class KickBanMixin(MixinMeta):
         elif ctx.guild.me.top_role <= member.top_role or member == ctx.guild.owner:
             await ctx.send(_("I cannot do that due to Discord hierarchy rules."))
             return
+  
         audit_reason = get_audit_reason(author, reason, shorten=True)
         toggle = await self.config.guild(guild).dm_on_kickban()
         if toggle:
@@ -349,7 +350,7 @@ class KickBanMixin(MixinMeta):
                 )
                 em.add_field(
                     name=_("**Return**"),
-                    value=_(f"You have been kicked from {guild} for the given reason: `{reason}`.\n You may return at any time. https://discord.gg/V9yYzugtmr"),
+                    value=_(f"You have been kicked from {guild} for the given reason: `{reason}`.\nYou may return at any time. https://discord.gg/V9yYzugtmr"),
                     inline=False, 
                 )
                 await member.send(embed=em)
@@ -377,7 +378,14 @@ class KickBanMixin(MixinMeta):
                 channel=None,
             )
             await ctx.send(_(f"**User**: `{member.id}` kicked! **Reason**: `{reason}` | **Your membership to the Continental has been** *—by thine own hand—* **revoked.**"))
-
+        
+        if author != member:
+            embed = discord.Embed(color=discord.Color.red())
+            embed.title=None
+            embed.set_image(url="https://media.tenor.com/EKX7SNViuW4AAAAC/revoked-denied.gif")
+            await ctx.send(embed=embed)
+            return
+            
     @commands.command()
     @commands.guild_only()
     @commands.bot_has_permissions(ban_members=True)
