@@ -12,12 +12,6 @@
   <p>The goal of this repository is twofold. The primary purpose of this repository is to maintain all of our custom filters, code, and JSON files in a place where we        can collaborate and easily edit from a single source. This makes it easy for us to track changes we've made to our server as well as continualy update those who          care to view this repo.
   </p>
   
-  #### Server Link & Info
-  If you somehow find this repository without already being a member of our server and have further questions about this repo, feel free join and ask us here:
-  
- ![Discord Banner 2](https://discordapp.com/api/guilds/807830259990659082/widget.png?style=banner2)
- 
-  
   #### Sources
   Our main Moderation bot is a private instance of a [Red Bot](https://github.com/Cog-Creators/Red-DiscordBot). If you are interested in further learning how this bot
   works, please read over the [Docs](https://docs.discord.red/en/stable/). Big thank you to those who work and contribute to this repository! Red is the best modular
@@ -33,4 +27,7 @@
   - Our server banner was created by [**@RexusGold**](https://twitter.com/RexusGold). Thank you for your contribution and your efforts to make our server better! We         appreciate your dedication!! If you are reading this, please go check out their [Twitter](https://twitter.com/RexusGold) profile!
   - Custom code and warden rules contributed to the server by [Brains](https://github.com/King0fBrains). 
   
- 
+ #### Server Link & Info
+  If you somehow find this repository without already being a member of our server and have further questions about this repo, feel free join and ask us here:
+  
+ ![Discord Banner 2](https://discordapp.com/api/guilds/807830259990659082/widget.png?style=banner2)
