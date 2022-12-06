@@ -9,7 +9,7 @@
   
   
   ## Purpose
-  <p>The goal of this repository is twofold. The primary purpose of this repository is to maintain all of our custom filters, code, and JSON files in a place where we        can collaborate and easily edit from a single source. This makes it easy for us to track changes we've made to our server as well as continualy update those who          care to view this repo.
+  <p>The primary purpose of this repository is to maintain all of our custom filters, code, and JSON files in a place where we        can collaborate and easily edit from a single source. This makes it easy for us to track changes we've made to our server as well as continualy update those who          care to view this repo.
   </p>
   
   #### Sources
