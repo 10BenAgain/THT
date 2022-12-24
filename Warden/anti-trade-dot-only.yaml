@@ -1,0 +1,14 @@
+name: at-correct-prefix
+rank: 1
+event: on-message
+if:
+   - channel-matches-any: [906739960084856832, 899655988632764446, 1043974376787279953]
+   - if-any:
+      - message-matches-regex: (?i)(\B[.]trade\b)
+      - message-matches-regex: (?i)(\B[.]t\b)
+
+do:
+   - send-message:
+      id:  900502871156613190 # Staff-Chat Channel
+      title: Anti-Trade
+      description: "**User**: $user_name ($user_id) just used a trade command in an incorrect channel!\n \n**Channel**: $channel\n \n**Message content**: $message ($message_link)"
