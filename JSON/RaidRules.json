@@ -1,28 +1,23 @@
 {
-    "fields": [
-        {
-            "name": "General Info",
-            "value": ":star2: Raids announcements will be posted in this channel. (<#882818625243844628>) We will post a message that will be published with raid details similarly to how it was done in Sword and Shield. \n\n:star2: Since there is no benefit to adding raid host switches to friends list, friend codes have been entirely made irrelevant and will go unshared. \n\n:star2: Every raid posted will have a link code! You will have to wait and watch in this channel for each individual raid post to begin. \n\n:star2: Every raid will be **Shiny**! Raids will rotate periodically but not daily as they are more difficult to setup than in SwSh.",
-            "inline": false
-        },
-        {
-            "name": "Rules",
-            "value": "> **R1**. You may only join a   **3** raids per **24** period. The bot will post images of each raid lobby before the raid begins to show us each user that joins. Each raid post will include the 24 hours period time frame reflecting **your individual timezone** If you are continuously joining raids without following this rule, you will be banned from future raids. \n\n> **R2**. Do not intentionally leave or throw a raid lobby. If you are found to be purposefully griefing a lobby, you will be banned from future raids. \n\n> **R3**. Do not share raid link codes with users who are either not members of this server or have been banned from raids. This behavior will also result in a ban.",
-            "inline": false
-        },
-        {
-            "name": "Reports",
-            "value": "The server staff does not have the time to continuously moderate and record every single raid lobby to check for repeated raiders especially considering the amount of potential raiders here in the server. If you notice that any person is violating any of the rules listed above, please let us know in <#1043974376787279953>. We want this to be a fun experience that everyone can participate in.",
-            "inline": false
-        },
-        {
-            "name": "Bans",
-            "value": "Raid bans are handled internally from the hosting program. **If you get banned, when you try to join another raid, the program will restart the raid!**\nDo not be that person to ruin the fun for everyone else! Banned users are detected by matching IGN names so if you have the exact same name as a banned user, you too will trigger the raid reset. There is no good way around this! (Besides picking a unique IGN)",
-            "inline": false
-        }
-    ],
-    "color": 16772454,
-    "type": "rich",
-    "description": "Welcome to <#882818625243844628>! This channel is dedicated to posting current public raids hosted in the server. Unlike in Sword & Shield, raids cannot be hosted as quickly and as reliably due to many new in-game restrictions. Due to this, new rules regarding raids will be implemented here. __Please read them carefully!__",
-    "title": "Shiny Raids!"
+  "title": "Shiny Raids!",
+  "description": "Welcome to <#882818625243844628>! This channel is dedicated to posting current public raids hosted in the server. Unlike in Sword & Shield, raids cannot be hosted as quickly and as reliably due to many new in-game restrictions. Due to this, new rules regarding raids will be implemented here. __Please read them carefully!__",
+  "color": 16772454,
+  "fields": [
+    {
+      "name": "General Info",
+      "value": ":star2: Raids announcements will be posted in this channel. (<#882818625243844628>) We will post a message that will be published with raid details similarly to how it was done in Sword and Shield. \n\n:star2: Since there is no benefit to adding raid host switches to friends list, friend codes have been entirely made irrelevant and will go unshared. \n\n:star2: Every raid posted will have a link code! You will have to wait and watch in this channel for each individual raid post to begin. \n\n:star2: Every raid will be **Shiny**! Raids will rotate periodically but not daily as they are more difficult to setup than in SwSh."
+    },
+    {
+      "name": "Rules",
+      "value": "> **R1**. You may only join a   **5** raids per raid cycle. A raid cycle is determined by when the raid starts to when the raid ends. For example, if we host a Dragonite den starting at 1 PM CST, you may join that specific raid up to 5 times. There is no specific time limit to how the raid will be hosted for since there are many factors that potentially contribute to it crashing. The bot will post images of each raid lobby before the raid begins to show us each user that joins. If you are continuously joining raids without following this rule, you will be banned from future raids. \n\n> **R2**. Do not intentionally leave or throw a raid lobby. If you are found to be purposefully griefing a lobby, you will be banned from future raids. \n\n> **R3**. Do not share raid link codes with users who are either not members of this server or have been banned from raids. This behavior will also result in a ban.\n\n> **R4**. Do not ask when raids will be running and for how long. They will be available when we have time to host"
+    },
+    {
+      "name": "Join Count",
+      "value": "To clarify, if you disconnect from a raid before it begins, it will **not** be counted towards your **5** joins per cycle. The bot will check user joins during the raid not before it starts. If you manage to disconnect *during* the raid, you are out of luck and that join will be counted towards the limit."
+    },
+    {
+      "name": "Appeals",
+      "value": "If you believe to have been banned from raids mistakenly or unfairly, please let us know in <#1043974376787279953>.  Complaining about being banned will not help your cause. We will most likely make you explain your side of the story and determine the length of your ban. If you are unbanned and then continue to abuse raid entry limits, you will be banned indefinitely."
+    }
+  ]
 }
