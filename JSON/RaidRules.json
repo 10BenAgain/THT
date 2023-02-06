@@ -9,19 +9,19 @@
         },
         {
           "name": "Rules",
-          "value": "> **R1**. You may only join a   **5** raids per raid cycle. A raid cycle is determined by when the raid starts to when the raid ends. For example, if we host a Dragonite den starting at 1 PM CST, you may join that specific raid up to 5 times. There is no specific time limit to how the raid will be hosted for since there are many factors that potentially contribute to it crashing. The bot will post images of each raid lobby before the raid begins to show us each user that joins. If you are continuously joining raids without following this rule, you will be banned from future raids. \n\n> **R2**. Do not intentionally leave or throw a raid lobby. If you are found to be purposefully griefing a lobby, you will be banned from future raids. \n\n> **R3**. Do not share raid link codes with users who are either not members of this server or have been banned from raids. This behavior will also result in a ban.\n\n> **R4**. Do not ask when raids will be running and for how long. They will be available when we have time to host"
+          "value": "> **R1**. You may only join a   **5** raids per raid posting. There is no specific time limit to how the raid will be hosted for since there are many factors that potentially contribute to it crashing and or resetting. Joining more than **5** raids per raid posing will result in a ban. \n\n> **R2**. Do not intentionally leave or throw a raid lobby. If you are found to be purposefully griefing a lobby, you will be banned from future raids. \n\n> **R3**. Do not share raid link codes with users who are either not members of this server or have been banned from raids. This behavior will also result in a ban.\n\n> **R4**. Do not ask when raids will be running and for how long. They will be available when we have time to host"
         },
         {
-          "name": "Join Count",
+          "name": "Join Count/Disconnect",
           "value": "To clarify, if you disconnect from a raid before it begins, it will **not** be counted towards your **5** joins per cycle. The bot will check user joins during the raid not before it starts. If you manage to disconnect *during* the raid, you are out of luck and that join will be counted towards the limit."
         },
         {
-          "name": "Appeals",
-          "value": "If you believe to have been banned from raids mistakenly or unfairly, please let us know in <#1043974376787279953>.  Complaining about being banned will not help your cause. We will most likely make you explain your side of the story and determine the length of your ban. If you are unbanned and then continue to abuse raid entry limits, you will be banned indefinitely."
+          "name": "Join Count Limit",
+          "value": "Raid posts will all have information at the bottom of the embed with information like this: \n\n`Host: Zacian.net | Uptime: 0.17:33:28\nRaids: 283 | Wins: 260 | Losses: 1`\nEach new raid will start with `Raids: 0` \n\n> If you have completed **5 out of the 283 raids from this example, then you may not participate in any more.**"
         },
         {
-          "name": "WHEN IS THE NEXT RAID GOING TO BE???",
-          "value": "Yes. ||Please dont ask this question. Don't be that person. We will host raids when we the ability and time to do so||"
+          "name": "Appeals",
+          "value": "If you believe to have been banned from raids mistakenly or unfairly, please let us know in <#1043974376787279953>.  Complaining about being banned will not help your cause. We will most likely make you explain your side of the story and determine the length of your ban. __Please do not DM raid hosts asking why you've been banned! Use the proper channels to explain yourself. Unsolicited DMs will be ignored.__ If you are unbanned and then continue to abuse raid entry limits, you will be banned indefinitely."
         }
       ]
     }
