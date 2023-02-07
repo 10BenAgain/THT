@@ -17,7 +17,7 @@
         },
         {
           "name": "Join Count Limit",
-          "value": "Raid posts will all have information at the bottom of the embed with information like this: \n\n`Host: Zacian.net | Uptime: 0.17:33:28\nRaids: 283 | Wins: 260 | Losses: 1`\nEach new raid will start with `Raids: 0` \n\n> If you have completed **5 out of the 283 raids from this example, then you may not participate in any more.**"
+          "value": "Raid posts will all have information at the bottom of the embed with information like this: \n\n`Host: Zacian.net | Uptime: 0.17:33:28\nRaids: 283 | Wins: 260 | Losses: 1`\nEach new raid will start with `Raids: 0` \n\n> If you have completed **5 out of the 283 raids from this example, then you may not participate in any more.**\n\n> Losses do __not__ count towards your 5 completed raids!"
         },
         {
           "name": "Appeals",
