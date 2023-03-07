@@ -28,6 +28,22 @@
       {
         "name": "**Q7.** What is the trade command, how can I cancel my position in queue, and how can I check my position in queue?",
         "value": "> `.trade` - is the command you add in front of the Pokémon name or as a comment when using pk8 file, before submitting to creation channel.\n> `.qc` - this command removes you from the queue\n> `.qs` - tells you your position in the queue"
+      },
+      {
+        "name": "**Q8.** How do I create or edit a pk9 file?",
+        "value": "> By downloading a program called pkhex to your pc. We don't offer tutorials on how to use pkhex since an easy google/youtube search can give you that info. Most tutorials are outdated but have the same general information. Our support here is for using the bots and not teaching you about pkhex. sorry not sorry.\nThere is a tutorial by a youtuber pinned in <#808182861571686430>"
+      },
+      {
+        "name": "**Q9.** Bot responded with one of the following.",
+        "value": "`Oops! I wasn't able to create a --- from that set. Egg is unavailable in the game.`\n> This error is usually caused because user misspelled the Pokémon name or didn't add the correct spaces on the first line when requesting a Pokémon. Showdown gives you the correct format so it shouldn't be an issue unless you edited the set after exporting from showdown.\n\nExample of correct usage:\n.trade Charizard @ Master Ball\n\nFour of many examples that cause such error:\n.tradeFuecoco @ Master Ball\n.trade Fuecoco @Master Ball\n.trade Fuecoco@ Master Ball\n.trade Fueccoco @ Master Ball\n\n`Oops! I wasn't able to create a <Pokémon name> from that set.`\n> This error means that something from your set is not legal and it can not possibly exist. You need to figure out what in your set is causing that error and fix it.\n\n`Requested shiny value (ShinyType.Always) is not possible for the given set.`\n> This error means that the Pokémon you are trying to create can not legally be shiny."
+      },
+      {
+        "name": "**Q10.** Bot responds with `Provided Pokémon content is blocked from trading!`",
+        "value": "This error is caused by a few things.\n> 1. you are requesting an illegal Pokémon\n> 2. the bot filters certain words, symbols, ect. from being added as your OT or Pokémon name because they can be used as advertising purposes. Some examples are adding a period anywhere, the words `ttv`, `com`, `org`, `*`, `YT`, `gg`, `net` and few others."
+      },
+      {
+        "name": "Q11. I requested a level 50 Pokémon and got a level 100 Pokémon instead. What the fuck is going on Abel?",
+        "value": "> I'll tell you what the fuck is going on. When requesting a level 50 Pokémon, the bot assumes you are going to use it for competitive so it automatically sets it to level 100 to take full advantage of its IVs/EVs\n> If this is not the case just request it at level 49 and holding a rare candy so you can feed it to it and raise it to level 50"
       }
     ]
-}
+  }
