@@ -1,0 +1,12 @@
+{
+    "color": 14694887,
+    "fields": [
+      {
+        "name": "Q12. Bot DMed me `Oops! Something happened. Canceling the trade: TrainerToolSlow. Trade canceled: TrainerTooSlow`",
+        "value": "> This is cause by one of two things on your end. You either took too long to offer a Pokémon and the bot timed out and left or you forgot to press A on the Attention window, see pic below, after offering a Pokémon. The trade can not start/continue if you don't press A on that attention pop up."
+      }
+    ],
+    "image": {
+      "url": "https://i.imgur.com/gmpRNW1.png"
+    }
+  }

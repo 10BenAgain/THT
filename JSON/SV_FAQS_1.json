@@ -1,0 +1,33 @@
+{
+    "color": 14694887,
+    "fields": [
+      {
+        "name": "**Q1.** How do I create Pokemon for Scarlet & Violet?",
+        "value": "> First, go read the <#1042594182826565674>, then read and react to the rules in <#808182218178166785>. Finally, for a full guide on how to create Pokemon, read and review the SV Guide found here: <#1033769288932270180>"
+      },
+      {
+        "name": "**Q2.**  Is this legal/safe and will I get banned?",
+        "value": "> This is 100% legal and safe. Creating Pokémon's here and using them online will __not__ get you banned."
+      },
+      {
+        "name": "**Q3.** What Pokémon are shiny locked and can not be traded/requested with the bot?",
+        "value": "> The following Pokemon are shiny locked: **Gholdengo, Ting-Lu, Chein-Pao, Wo-Chien, Chi-Yu, Koraidon, Miraidon, Gimiighoul, Iron Leaves, Walking Wake. ** Don't attempt to create these Pokémon's in their shiny forms because it will not work. Requesting them non shiny will work as long as the entire set is legal."
+      },
+      {
+        "name": "**Q4.** What Pokémon are available/obtainable and the bot can create?",
+        "value": "> Below is a link with a list of all the available/obtainable Pokémon in Scarlet/Violet: \n> https://www.serebii.net/scarletviolet/paldeapokedex.shtml\n\n> Zorua-Hisui, Zoroark-Hisui, Walking Wake, Iron Leaves, Froakie, Frogadier, Greninja, Scorbunny, Raboot, Cinderace, Charmander, Charmeleon, Charizard, Wooper, Quagsire, Galarian Meowth, and Perrserker."
+      },
+      {
+        "name": "**Q5.** What other lines can I add to my showdown set when creating a Pokémon?",
+        "value": "> **These lines must go anywhere after the name of the Pokémon and before the first move or the bot will not acknowledge them.**\n> \n> Here is an example of other lines you can add to your showdown set when creating a Pokémon to include OTgender, OT, TID, what ball the Pokémon is in, region(language). The lines in bold are needed if you want your Pokémon to have your exact trainer data and be 100% yours.\n> \n> OT: TheHighTable\n> TID: 071791\n> SID: 0910\n> OTGender: Male/Female\n> Language: English \n> Ball: Poke Ball\n> \n> __Available Languages__ - Japanese, English, French, Italian, German, Spanish, Korean, ChineseS, and ChineseT\n> \n> __Available Balls__ - Beast Ball, Dive Ball, Dream Ball, Dusk Ball, Fast Ball, Friend Ball, Great Ball, Heal Ball, Heavy Ball, Level Ball, Love Ball, Lure Ball, Luxury Ball, Master Ball, Moon Ball, Nest Ball, Poke Ball, Premier Ball, Quick Ball, Repeat Ball, Timer Ball, and Ultra Ball"
+      },
+      {
+        "name": "**Q6.** What is SID (Secret ID) and how do I obtain it?",
+        "value": "> Make sure you know how to trade with the bot before doing any of this.\n> Read about SID below\n> https://bulbapedia.bulbagarden.net/wiki/Trainer_ID_number\n\n> Below is a video tutorial on how to obtain your secret ID\n> https://youtu.be/SgUYXSSDRKk"
+      },
+      {
+        "name": "**Q7.** What is the trade command, how can I cancel my position in queue, and how can I check my position in queue?",
+        "value": "> `.trade` - is the command you add in front of the Pokémon name or as a comment when using pk8 file, before submitting to creation channel.\n> `.qc` - this command removes you from the queue\n> `.qs` - tells you your position in the queue"
+      }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "color": 14694887,
+    "fields": [
+      {
+        "name": "**Q13.** What are Batch Commands and how do I use/add them to my set?",
+        "value": "> Batch commands add an additional layer of customization to your requests that are otherwise unavailable using standard Showdown formats. These are useful for when you want to specify things like your Pokémon's met date, what ribbons your Pokémon has, game version, etc. It is critical that the batch command goes anywhere after the name of the Pokémon and before the first move or the bot will not acknowledge them.\n\n> Click the link below to read about them and to learn how to use and add them to your set.\n> https://docs.google.com/document/d/1GOCwjWVusFBQ1erUpollVC3o8dgrhfeWXQxfIZCUoVw/edit?usp=sharing"
+      },
+      {
+        "name": "**Q14.** Bot DMed me Oops! Something happened. Canceling the trade: NoTrainerFound. Trade canceled: NoTrainerFound",
+        "value": "> This means the bot did not find you when searching with the code provided. Here is what you can do.\n\n> 1. Make sure you are connected to the internet.\n> 2. Make sure you have a subscription to Nintendo Switch Online (NSO).\n> 3. Make sure you are not in a Union Circle.\n> 4. Make sure you have a strong and stable internet connection.\n> 5. Make sure you start searching when the bot says I'm waiting for you\n> 6. Restart your game/console.\n> 7. If you are still having issues then it comes down to Nintendos crappy servers. Keep trying because its working for everyone else. Unless there is a mass report then its something on your end and not our end."
+      },
+      {
+        "name": "**Q15.** Bot DMed me Trade canceled: SuspiciousActivity\nOops! Something happened. Canceling the trade: SuspiciousActivity.",
+        "value": "> Three different things triggers the bot to DM you this message.\n\n> 1. You are trading to multiple accounts/saves/OTs. This violates bot access rule 10. The bots link your discord account to one Nintendo save and will know if you are sending Pokémon to other accounts/saves. This includes a family member, friend, or different save for those who are playing both versions.\n> 2. You got trade sniped. With thousands of people trading each minute, the trade code that the bot generated is probably already being used by someone else and they just happened to take your trade. If this is the case, all you have to do is request another Pokémon from the bot so it can register your OT once it links with you again. It wont trade you when you link with it but it needs to be done so it can register your OT again. After that is done you will need to wait 180 minutes before you can trade with the bot again.\n> 3. You are a banned user using an alt attempting to use the bots."
+      }
+    ],
+    "footer": {
+      "text": "Last updated",
+      "icon_url": "https://www.serebii.net/itemdex/sprites/pgl/masterball.png"
+    },
+    "timestamp": "2023-03-07T07:00:00.000Z"
+  }
