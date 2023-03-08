@@ -1,0 +1,8 @@
+name: Excomminicado plus anti-member
+rank: 1
+event: on-role-add
+if:
+  - compare: ["$role_id", "==", "1083146030171824138"]
+  - user-has-any-role-in: ["810011899784593468"]
+do:
+  - remove-roles-from-user: ["1083146030171824138"]
