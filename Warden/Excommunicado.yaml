@@ -1,0 +1,7 @@
+name: Excommunicado
+rank: 1
+event: on-role-add
+if:
+  - compare: ["$role_id", "==", "1083146030171824138"]
+do:
+  - remove-roles-from-user: ["810011899784593468"]
