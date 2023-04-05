@@ -11,11 +11,11 @@
       },
       {
         "name": "**Q3.** What Pokémon are shiny locked and can not be traded/requested with the bot?",
-        "value": "> The following Pokemon are shiny locked: **Gholdengo, Ting-Lu, Chein-Pao, Wo-Chien, Chi-Yu, Koraidon, Miraidon, Gimiighoul, Iron Leaves, Walking Wake. ** Don't attempt to create these Pokémon's in their shiny forms because it will not work. Requesting them non shiny will work as long as the entire set is legal."
+        "value": "> The following Pokemon are shiny locked: **Gholdengo, Ting-Lu, Chein-Pao, Wo-Chien, Chi-Yu, Koraidon, Miraidon, Gimighoul, Iron Leaves, Walking Wake. ** Don't attempt to create these Pokémon's in their shiny forms because it will not work. Requesting them non shiny will work as long as the entire set is legal."
       },
       {
         "name": "**Q4.** What Pokémon are available/obtainable and the bot can create?",
-        "value": "> Below is a link with a list of all the available/obtainable Pokémon in Scarlet/Violet: \n> https://www.serebii.net/scarletviolet/paldeapokedex.shtml\n\n> Zorua-Hisui, Zoroark-Hisui, Walking Wake, Iron Leaves, Froakie, Frogadier, Greninja, Scorbunny, Raboot, Cinderace, Charmander, Charmeleon, Charizard, Wooper, Quagsire, Galarian Meowth, and Perrserker."
+        "value": "> Below is a link with a list of all the available/obtainable Pokémon in Scarlet/Violet: \n> https://www.serebii.net/scarletviolet/paldeapokedex.shtml\n\n> These Pokemon have also been added and are available: Zorua-Hisui, Zoroark-Hisui, Walking Wake, Iron Leaves, Froakie, Frogadier, Greninja, Scorbunny, Raboot, Cinderace, Charmander, Charmeleon, Charizard, Wooper, Quagsire, Galarian Meowth, Rowlet, Dartrix, Decidueye and Perrserker."
       },
       {
         "name": "**Q5.** What other lines can I add to my showdown set when creating a Pokémon?",

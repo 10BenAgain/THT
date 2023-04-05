@@ -1,5 +1,5 @@
 {
-  "description": "**BY CLICKING THE ✅ BELOW, YOU AGREE TO THESE RULES, SERVER RULES POSTED IN <#1042594182826565674> AND WILL RECEIVE THE MEMBER ROLE THAT GIVES YOU FULL ACCESS TO THIS SERVER WHERE YOU CAN CREATE ANY LEGAL SHINY/NORMAL POKEMON FOR SCARLET/VIOLET, SWORD/SHIELD, BRILLIANT DIAMOND/SHINING PEARL, POKEMON LEGENDS ARCEUS,  AND PARTICIPATE IN SHINY RAIDS. THIS ROLE WILL ALSO GRANT YOU ACCESS TO USE THE ANIMAL CROSSING: NEW HORIZONS BOT!**",
+  "description": "**BY CLICK THE ✅ BELOW YOU AGREE TO THESE RULES AND WILL RECEIVE THE POKEMON MEMBER ROLE THAT GIVES YOU FULL ACCESS TO THIS SERVER WHERE YOU CAN CREATE ANY LEGAL SHINY/NORMAL POKEMON FOR SCARLET/VIOLET, SWORD/SHIELD, BRILLIANT DIAMOND/SHINING PEARL, POKEMON LEGENDS ARCEUS, AND PARTICIPATE IN SHINY RAIDS. THIS ROLE WILL ALSO GRANT YOU ACCESS TO USE THE ANIMAL CROSSING NEW HORIZONS BOT!\nThese rules are subject to change, users are responsible to stay up to date with the servers rules. Breaking any of these rules can and will result in a warn, kick, or ban depending on the severity of the infraction.**",
   "color": 5619771,
   "fields": [
     {
@@ -16,42 +16,30 @@
     },
     {
       "name": "__Rule 4__",
-      "value": "> Do Not use our services for financial gain."
-    },
-    {
-      "name": "__Rule 5__",
       "value": "> If a bot is down Do Not ask when it will be back up."
     },
     {
-      "name": "__Rule 6__",
-      "value": "> Do Not spam the bot channel with illegal sets and Do Not request stupid stuff or things that cant be possible. “I wanted to try” or other excuses are not valid excuse for you to try and create stupid stuff."
-    },
-    {
-      "name": "__Rule 7__",
+      "name": "__Rule 5__",
       "value": "> Do Not create alt accounts to queue yourself multiple times and skip wait time."
     },
     {
-      "name": "__Rule 8__",
+      "name": "__Rule 6__",
       "value": "> Do Not create Pokémon with more than one OT unless it's an event Pokémon."
     },
     {
-      "name": "__Rule 9__",
-      "value": "> There is no reason for you to create multiple of the same Pokémon. A handful of 1 specific Pokémon should be enough."
-    },
-    {
-      "name": "__Rule 10__",
+      "name": "__Rule 7__",
       "value": "> Only trade to one account and only for yourself. The bot will prevent you from trading if it links to a different account when trading you."
     },
     {
-      "name": "__Rule 11__",
+      "name": "__Rule 8__",
       "value": "> You understand that using the bots requires some kind of Pokémon knowledge and common sense. This includes trading mechanics and basic Pokémon knowledge."
     },
     {
-      "name": "__Rule 12__",
+      "name": "__Rule 9__",
       "value": "> Do not give the Pokémon you create here inappropriate nicknames."
     },
     {
-      "name": "__Rule 13__",
+      "name": "__Rule 10__",
       "value": "> Do not delete messages that you have sent in <#808182861571686430>. When you delete messages after someone has replied to you, the person replying looks insane by talking to themselves. Further, if someone has the same question as you they can search for your previously answered question unless its been deleted."
     }
   ]
