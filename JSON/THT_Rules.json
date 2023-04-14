@@ -1,66 +1,62 @@
 {
-      "title": "__SERVER RULES__ ✅",
-      "description": "These rules are subject to change, users are responsible to stay up to date with the servers rules. Breaking any of these rules can and will result in a warn, kick, or ban depending on the severity of the infraction.",
-      "color": 5619771,
-      "fields": [
-        {
-          "name": "1. **CONDUCT**",
-          "value": "> We respect all forms of opinions and discussion, and you should respect that as well. However,  harassment, bullying, and racism will not be tolerated. This includes: means to provoke ill intentions, slurs against anything, excessive venting, trolling or flaming others or any abusiveness towards others on the discord. If someone has a specific request on how they wish to be treated here, that must be respected.  This also includes Direct Messages towards others in this Discord as well, as no one deserves to feel threatened or unsafe."
-        },
-        {
-          "name": "2. **SELF PROMOTION & ADVERTISING**",
-          "value": "> Do not post self-promotions or advertisements. You can advertise links and domains in your Discord status or bio but as long as it is not advertising a paid service such as selling Pokemon. In addition, do not hoist your username to advertise or promote your Discord server."
-        },
-        {
-          "name": "3. **USER PROFILE**",
-          "value": ">  Make sure you have a name that can be easily pinged, we will tell you to set a nickname and/or a nickname will be assigned to you. Also take care to keep your profile picture, nickname, banner, and status up to our community/public server standards."
-        },
-        {
-          "name": "4. **DISRUPTION**",
-          "value": "> Do not mini mod or disrupt the help channel. If you have nothing of value to add or don't know the correct answer to a question, just keep it to yourself. <#808182861571686430> is strictly for asking bot related questions. All other discussion goes in <#906739960084856832>"
-        },
-        {
-          "name": "5. **READ THE AVAILABLE GUIDES & FAQS**",
-          "value": "> Read Tutorials and FAQs for the bot you want to use before asking questions and provide as much information as possible when asking. If your question is already answered in our provided guides, we will just direct you back to them."
-        },
-        {
-          "name": "6. **SERVER LANGUAGE**",
-          "value": "> This is an English speaking server. If you can't read English to understand the rules and resources that we offer then I'm afraid this server is not for you. If you're having issues communicating in English, we recommend you use a translator: https://www.deepl.com/translator"
-        },
-        {
-          "name": "7. **NSFW CONTENT**",
-          "value": "> Do not post any NSFW content in any of the server channels. This is a family friendly server and we will never utilize the functions of age-restricted channels. Posting materials that are deemed NSFW from our Moderators will result in a ban. This includes but not limited to 'dark humor' memes, excessive use of unprofessional language, sexual implications or inappropriate content."
-        },
-        {
-          "name": "8. **NO TRADES**",
-          "value": "> Do not ask for trades. **This is not a trading server**. We have bots that can create any Pokémon you want. See tutorials and FAQs to learn how to do so."
-        },
-        {
-          "name": "9. **UNSOLICTED DM**",
-          "value": "> Do not DM STAFF MEMBERS. If you have questions regarding the bots please ask in <#808182861571686430> and if you need to report a member or any other issues please DM <@1003479970938626128>"
-        },
-        {
-          "name": "10. **NO SPAM**",
-          "value": "> Do not spam the server channels with messages. This includes provocative copy pasta, images, and most importantly repeated questions that are already covered in our guides and FAQs."
-        },
-        {
-          "name": "11. **DISCORD TOS**",
-          "value": "> In addition to all previously stated rules, Discord ToS will be upheld here. It should go without saying that breaking these rules is a ban-able offense. This includes but is not limited to: discussion of pirating games and or your intents to obtain copies of unreleased games via illegitimate means."
-        },
-        {
-          "name": "RULE BREAKS",
-          "value": "We utilize a **four** strike system for rule violations. If you receive four warns, you will permanently banned. There are no exceptions to this. Bans are irreversible here unless done by mistake. Please note, when you are kicked from this server, <@1003479970938626128> will send you an invite link to return. Consider being 'kickwarned' a stern reminder to maintain your reading skills here."
-        },
-        {
-          "name": "APPEALS",
-          "value": "If you find that you have been warned in the server and you wish to appeal a warning, please send a DM to <@1003479970938626128> and a Moderator will add you to the <#1083145639606616185> where you can state your case. In addition to this, if you break a rule, you may find yourself stuck in the appeals channel without requesting to be so."
-        },
-        {
-          "name": "THE HIGH TABLE",
-          "value": "<@&810013892670521364> **Resides over the High Table and is immune to these rules.** Now that you have completed your High Table Rules Study, if you wish to be granted access to our Trade Bots, read and react to <#808182218178166785>"
-        }
-      ],
-      "image": {
-        "url": "https://media.tenor.com/Jo9LO2Cij3UAAAAC/john-wick-rules.gif"
-      }
+  "title": "__SERVER RULES__ ✅",
+  "description": "These rules are subject to change, users are responsible to stay up to date with the servers rules. Breaking any of these rules can and will result in a warn, kick, or ban depending on the severity of the infraction.",
+  "color": 5619771,
+  "fields": [
+    {
+      "name": "1. **CONDUCT**",
+      "value": "> We respect all forms of opinions and discussion, and you should respect that as well. However,  harassment, bullying, and racism will not be tolerated. This includes: means to provoke ill intentions, slurs against anything, excessive venting, trolling or flaming others or any abusiveness towards others on the discord. If someone has a specific request on how they wish to be treated here, that must be respected.  This also includes Direct Messages towards others in this Discord as well, as no one deserves to feel threatened or unsafe."
+    },
+    {
+      "name": "2. **SELF PROMOTION & ADVERTISING**",
+      "value": "> Do not post self-promotions or advertisements. You can advertise links and domains in your Discord status or bio but as long as it is not advertising a paid service such as selling Pokemon. In addition, do not hoist your username to advertise or promote your Discord server."
+    },
+    {
+      "name": "3. **USER PROFILE**",
+      "value": ">  Make sure you have a name that can be easily pinged, we will tell you to set a nickname and/or a nickname will be assigned to you. Also take care to keep your profile picture, nickname, banner, and status up to our community/public server standards."
+    },
+    {
+      "name": "4. **DISRUPTION**",
+      "value": "> Do not mini mod or disrupt the help channel. If you have nothing of value to add or don't know the correct answer to a question, just keep it to yourself. <#808182861571686430> is strictly for asking bot related questions. All other discussion goes in <#906739960084856832>"
+    },
+    {
+      "name": "5. **READ THE AVAILABLE GUIDES & FAQS**",
+      "value": "> Read Tutorials and FAQs for the bot you want to use before asking questions and provide as much information as possible when asking. If your question is already answered in our provided guides, we will just direct you back to them."
+    },
+    {
+      "name": "6. **SERVER LANGUAGE**",
+      "value": "> This is an English speaking server. If you can't read English to understand the rules and resources that we offer then I'm afraid this server is not for you. If you're having issues communicating in English, we recommend you use a translator: https://www.deepl.com/translator"
+    },
+    {
+      "name": "7. **NSFW CONTENT**",
+      "value": "> Do not post any NSFW content in any of the server channels. This is a family friendly server and we will never utilize the functions of age-restricted channels. Posting materials that are deemed NSFW from our Moderators will result in a ban. This includes but not limited to 'dark humor' memes, excessive use of unprofessional language, sexual implications or inappropriate content."
+    },
+    {
+      "name": "8. **NO TRADES**",
+      "value": "> Do not ask for trades. **This is not a trading server**. We have bots that can create any Pokémon you want. See tutorials and FAQs to learn how to do so."
+    },
+    {
+      "name": "9. **UNSOLICTED DM**",
+      "value": "> Do not DM STAFF MEMBERS. If you have questions regarding the bots please ask in <#808182861571686430> and if you need to report a member or any other issues please DM <@1003479970938626128>"
+    },
+    {
+      "name": "10. **NO SPAM**",
+      "value": "> Do not spam the server channels with messages. This includes provocative copy pasta, images, and most importantly repeated questions that are already covered in our guides and FAQs."
+    },
+    {
+      "name": "11. **DISCORD TOS**",
+      "value": "> In addition to all previously stated rules, Discord ToS will be upheld here. It should go without saying that breaking these rules is a ban-able offense. This includes but is not limited to: discussion of pirating games and or your intents to obtain copies of unreleased games via illegitimate means."
+    },
+    {
+      "name": "RULE BREAKS",
+      "value": "We utilize a **four** strike system for rule violations. If you receive four warns, you will permanently banned. There are no exceptions to this. Bans are irreversible here unless done by mistake. Please note, when you are kicked from this server, <@1003479970938626128> will send you an invite link to return. Consider being 'kickwarned' a stern reminder to maintain your reading skills here."
+    },
+    {
+      "name": "THE HIGH TABLE",
+      "value": "<@&810013892670521364> **Resides over the High Table and is immune to these rules.** Now that you have completed your High Table Rules Study, if you wish to be granted access to our Trade Bots, read and react to <#808182218178166785>"
     }
+  ],
+  "image": {
+    "url": "https://media.tenor.com/Jo9LO2Cij3UAAAAC/john-wick-rules.gif"
+  }
+}
